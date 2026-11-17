@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research profile of Marcelo Guzmán.">
+  <meta name="color-scheme" content="light dark">
+  <title>Marcelo Guzmán — Researcher</title>
+  <style>
+    :root { color-scheme: light dark; background: light-dark(#ffffff, #17191b); }
+    body { margin: 0; }
+
+    #marcelo-profile-example {
+      --profile-paper: light-dark(#ffffff, #17191b);
+      --profile-ink: light-dark(#25292c, #ecece8);
+      --profile-secondary: light-dark(#61676c, #a8afb4);
+      --profile-link: light-dark(#235e77, #94c8df);
+      --profile-rule: light-dark(#e1e5e7, #363b40);
+      color: var(--profile-ink);
+      background: var(--profile-paper);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    #marcelo-profile-example * { box-sizing: border-box; }
+    #marcelo-profile-example .profile-page {
+      max-width: 730px;
+      margin: 0 auto;
+      padding: 44px 40px 32px;
+    }
+    #marcelo-profile-example .profile-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px 28px;
+      padding-bottom: 21px;
+      border-bottom: 1px solid var(--profile-rule);
+    }
+    #marcelo-profile-example .profile-mark {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      color: var(--profile-ink);
+      margin-right: auto;
+    }
+    #marcelo-profile-example nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+    #marcelo-profile-example a {
+      color: var(--profile-link);
+      text-decoration: none;
+      text-underline-offset: 4px;
+    }
+    #marcelo-profile-example a:hover { text-decoration: underline; }
+    #marcelo-profile-example a:focus-visible { outline: 2px solid var(--profile-link); outline-offset: 5px; }
+    #marcelo-profile-example nav a { color: var(--profile-secondary); font-size: 13px; }
+    #marcelo-profile-example .profile-intro { padding: 39px 0 29px; }
+    #marcelo-profile-example .profile-field {
+      color: var(--profile-secondary);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      margin: 0 0 9px;
+    }
+    #marcelo-profile-example h1 {
+      color: var(--profile-ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 6vw, 45px);
+      font-weight: 400;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      margin: 0;
+    }
+    #marcelo-profile-example .profile-affiliation {
+      color: var(--profile-secondary);
+      margin: 10px 0 21px;
+      font-size: 14px;
+    }
+    #marcelo-profile-example p { margin: 0; }
+    #marcelo-profile-example .profile-section {
+      display: grid;
+      grid-template-columns: 114px minmax(0, 1fr);
+      gap: 17px;
+      border-top: 1px solid var(--profile-rule);
+      padding: 25px 0;
+      scroll-margin-top: 20px;
+    }
+    #marcelo-profile-example h2 {
+      color: var(--profile-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      margin: 1px 0 0;
+      line-height: 1.7;
+    }
+    #marcelo-profile-example h3 {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+      line-height: 1.7;
+    }
+    #marcelo-profile-example .research-list { display: grid; gap: 17px; }
+    #marcelo-profile-example .research-summary {
+      color: var(--profile-secondary);
+      font-size: 14px;
+      margin-top: 3px;
+    }
+    #marcelo-profile-example .profile-links { display: flex; flex-wrap: wrap; gap: 6px 23px; margin-top: 10px; }
+    #marcelo-profile-example .profile-placeholder { color: var(--profile-secondary); }
+    #marcelo-profile-example footer {
+      border-top: 1px solid var(--profile-rule);
+      padding-top: 16px;
+      color: var(--profile-secondary);
+      font-size: 12px;
+    }
+    @media (max-width: 480px) {
+      #marcelo-profile-example .profile-page { padding: 25px 21px; }
+      #marcelo-profile-example .profile-top { gap: 10px; }
+      #marcelo-profile-example .profile-mark { flex-basis: 100%; }
+      #marcelo-profile-example nav { gap: 8px 19px; }
+      #marcelo-profile-example .profile-intro { padding: 29px 0 25px; }
+      #marcelo-profile-example .profile-section { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 21px 0; }
+      #marcelo-profile-example .profile-links a { padding: 5px 0; }
+    }
+    @media (pointer: coarse) {
+      #marcelo-profile-example nav a, #marcelo-profile-example .profile-links a { display: inline-flex; min-height: 44px; align-items: center; }
+    }
+  
+  </style>
+</head>
+<body>
+<main>
+<div id="marcelo-profile-example" aria-label="Marcelo Guzmán researcher homepage">
+
+  <div class="profile-page">
+    <header class="profile-top">
+      <span class="profile-mark" aria-hidden="true">MG.</span>
+      <nav aria-label="Homepage sections">
+        <a href="#profile-about">About</a>
+        <a href="#profile-research">Research</a>
+        <a href="#profile-publications">Publications</a>
+        <a href="#profile-contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="profile-intro" id="profile-about" aria-labelledby="profile-name">
+      <p class="profile-field">Theoretical &amp; computational physics</p>
+      <h1 id="profile-name">Marcelo Guzmán</h1>
+      <p class="profile-affiliation">[Current position] · [Institution]</p>
+      <p>I combine theory and simulations to understand how physical systems learn and adapt. My research spans learning in physical networks, topological mechanical metamaterials, and collective behavior in active and granular matter.</p>
+    </section>
+
+    <section class="profile-section" id="profile-research" aria-labelledby="profile-research-heading">
+      <h2 id="profile-research-heading">Research</h2>
+      <div class="research-list">
+        <div>
+          <h3>Learning in physical networks</h3>
+          <p class="research-summary">Learning and adaptation through the dynamics of physical systems.</p>
+        </div>
+        <div>
+          <h3>Topology &amp; mechanics</h3>
+          <p class="research-summary">Geometry, topology, and frustration in mechanical metamaterials.</p>
+        </div>
+        <div>
+          <h3>Matter out of equilibrium</h3>
+          <p class="research-summary">Collective behavior and phase transitions in active and granular systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section" id="profile-publications" aria-labelledby="profile-publications-heading">
+      <h2 id="profile-publications-heading">Publications</h2>
+      <div>
+        <p>Find my papers and publication list below.</p>
+        <div class="profile-links">
+          <a href="https://scholar.google.com/citations?user=ktPeQ3MAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          <a href="https://www.researchgate.net/profile/Marcelo-Guzman-5" target="_blank" rel="noopener noreferrer">ResearchGate ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section" id="profile-contact" aria-labelledby="profile-contact-heading">
+      <h2 id="profile-contact-heading">Contact &amp; CV</h2>
+      <div>
+        <p class="profile-placeholder">[Your current email address]</p>
+        <p class="profile-placeholder">[Link to your updated CV]</p>
+      </div>
+    </section>
+
+    <footer>Marcelo Guzmán</footer>
+  </div>
+</div>
+
+</main>
+</body>
+</html>
